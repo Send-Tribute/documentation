@@ -27,7 +27,7 @@ This will trigger two Metamask transaction popups - one that grants a large allo
 
 ### Recipient Widget
 Recipients can place the Send Tribute widget button on their sites, allowing their users to interact with the Tribute system. 
-<img src="./assets/widget-button.png" width="350">
+<img src="./assets/widget-button.png" width="200">
 
 Clicking the button opens a widget window that can be customized by the recipient to set the relevant Tribute parameters. An example widget for an open source project donation might look something like this.
 <img src="./assets/widget-popup-open-source.png" width="300">
@@ -43,13 +43,22 @@ The user dashboard has four views:
 The Wallet view is shown and described above.  It allows a user to see what assets in his or her wallet can be used to send Tribute and provides tools for generating and disabling Tribute-enabled DAI.  It also provides links for a user to obtain Tribute-compatible assets like DAI.
 
 #### Sending View
-The Sending view allows a user to see where active Tributes are flowing and manage them.  It also contains information on prior Tribute
+The Sending view allows a user to see where active Tributes are flowing and manage them.  It also contains information on prior Inactive Tributes and has a discovery portal to find additional places to send your Tribute.
+
 <img src="./assets/dash-sending.png" width="400">
 
+Users may obtain additional information about a particular Tribute by clicking the Details button, which will bring up a window looking something like this:
+
+<img src="./assets/details-popup.png" width="300">
+
 #### Receiving View
+The Receiving view allows a user to see what is flowing into his or her wallet as Tribute.  This includes Self-Tribute, which is the cDAI-like interest flowing back to the user from the available (unallocated) Tribute.  
+It also shows a user the active inflows of Tribute that are being sent to his or her wallet.  It allows users to see how much Tribute has accrued and they can redeem that Tribute (which will move it into their prinicipal) by clicking the Redeem Tribute button.  We plan to build a tool to program redemptions to occur at predetermined thresholds, such as when the unredeemed Tribute hits 5 DAI and safe gas costs less than 5 gwei.
+It also allows users to see information about past Tribute inflows.
 <img src="./assets/dash-receiving.png" width="400">
 
 #### Settings View
+[FORTHCOMING]
 
 ### Tribute Functions
 #### Generate Tribute
@@ -62,6 +71,8 @@ The Sending view allows a user to see where active Tributes are flowing and mana
 #### End Tribute
 * calls Kovan rDAI createHat() method with new set of recipients (omitting the specified recipient) and proportions
 * alternately, calls Kovan changeHat() method if the intended recipients and proportions were extant in a previously used hat
+#### Redeem Tribute
+* calls Kovan rDAI payInterest() method on wallet address
 
 
 ### Smart Contract Dependencies
