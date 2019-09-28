@@ -57,6 +57,7 @@ The Receiving view allows a user to see what is flowing into his or her wallet a
 It also shows a user the active inflows of Tribute that are being sent to his or her wallet.  It allows users to see how much Tribute has accrued and they can redeem that Tribute (which will move it into their prinicipal) by clicking the Redeem Tribute button.  We plan to build a tool to program redemptions to occur at predetermined thresholds, such as when the unredeemed Tribute hits 5 DAI and safe gas costs less than 5 gwei.
 It also allows users to see information about past Tribute inflows.
 
+<img src="./assets/dash-receiving2.png" width="400">
 
 #### Settings View
 [FORTHCOMING]
