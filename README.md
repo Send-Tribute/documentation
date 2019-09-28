@@ -46,7 +46,7 @@ The Wallet view is shown and described above.  It allows a user to see what asse
 #### Sending View
 The Sending view allows a user to see where active Tributes are flowing and manage them.  It also contains information on prior Inactive Tributes and has a discovery portal to find additional places to send your Tribute.
 
-<img src="./assets/dash-sending.png" width="400">
+<img src="./assets/dash-sending2.png" width="400">
 
 Users may obtain additional information about a particular Tribute by clicking the Details button, which will bring up a window looking something like this:
 
