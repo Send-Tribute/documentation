@@ -30,6 +30,7 @@ Recipients can place the Send Tribute widget button on their sites, allowing the
 <img src="./assets/widget-button.png" width="200">
 
 Clicking the button opens a widget window that can be customized by the recipient to set the relevant Tribute parameters. An example widget for an open source project donation might look something like this.
+
 <img src="./assets/widget-popup-open-source.png" width="300">
 
 When a user clicks the Send Tribute button and has Tribute-enabled DAI in his or her wallet, a Metamask transaction will pop up that will redirect the specified portion of the user's Tribute interest.  For example, if a user with 500 available Tribute sent Tribute of 100 DAI to One Click Dapp, the interest on 100 DAI would then flow to One Click Dapp's wallet until the user decided to end that Tribute, while the interest on 400 DAI would continue to flow back to the user.  All 500 DAI remain in the user's wallet - all that moves is the interest generated from that principal.
@@ -55,7 +56,7 @@ Users may obtain additional information about a particular Tribute by clicking t
 The Receiving view allows a user to see what is flowing into his or her wallet as Tribute.  This includes Self-Tribute, which is the cDAI-like interest flowing back to the user from the available (unallocated) Tribute.  
 It also shows a user the active inflows of Tribute that are being sent to his or her wallet.  It allows users to see how much Tribute has accrued and they can redeem that Tribute (which will move it into their prinicipal) by clicking the Redeem Tribute button.  We plan to build a tool to program redemptions to occur at predetermined thresholds, such as when the unredeemed Tribute hits 5 DAI and safe gas costs less than 5 gwei.
 It also allows users to see information about past Tribute inflows.
-<img src="./assets/dash-receiving.png" width="400">
+
 
 #### Settings View
 [FORTHCOMING]
