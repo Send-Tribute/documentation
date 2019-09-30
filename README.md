@@ -21,7 +21,7 @@ You must first click the Enable DAI button and approve the MetaMask transactions
 
 ### Tribute-Enabled DAI
 Once you have Kovan DAI in your wallet (to see it in MetaMask, add the Custom Token at 0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99), navigate to the Wallet tab on the Dashboard (see image below) and click the Generate Tribute button.  
-<img src="./assets/dash-wallet.png" width="400">
+<img src="./assets/dash-wallet2.png" width="400">
 
 This will trigger two Metamask transaction popups - one that grants a large allowance for rDAI to transform your Kovan DAI and the second to mint rDAI from your DAI.  At the moment this will effect all of the Kovan DAI in your wallet.  Upon success, you now have Tribute-enabled DAI.  To reverse back to regular DAI, click the Disable Tribute button.  
 
